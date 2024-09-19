@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#F6944F"
+    tools:context=".TIActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EB6506"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/gambar"
+            android:layout_width="132dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ti"/>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:background="#0B0A0A"
+            android:backgroundTint="#0D0C0C"
+            android:text="Teknologi Informasi"
+            android:textAlignment="center"
+            android:textColor="#EFE6E6"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:text="Deskripsi Dan Profile"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Gagasan pendirian jurusan Teknologi informasi sudah ada sejak awal tahun 2000, namun terkendala karena beberapa pertimbangan antara lain ketersediaan Sumber Daya Manusia dan Infra Struktur .Pada Awal bulan Febuari 2005, beberapa orang dosen yang antara lain terdiri dari, Erwadi Bakar , Surfayondri , Andrizal , H A Mooduto , Yulindon, Ahmad Dahlan, Ronal Hadi dan Rahmat Hidayat, atas dukungan yang kuat dari pimpinan Politeknik Suhendrik Hanwar dan pimpinan lainnya membuat proposal pendirian program studi yang berkaitan dengan Teknologi Informasi.  Dasar utama pendirian ini adalah keinginan Politeknik Unand Padang untuk ikut berkontribusi secara maksimal dalam pengembangan dan penerapan teknologi informasi melalui dunia pendidikan serta sebagai langkah antisipasi perkembangan teknologi informasi dan komunikasi yang demikian cepat yang tentunya membutuhkan SDM untuk mengelolanya."
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30sp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#EA6506"
+            android:text="BACK" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
